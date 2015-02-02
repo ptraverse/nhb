@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+
+
+.Match
+{
+	border: 3px solid black;
+	padding-bottom: 20px; 
+}
+
+.Country, .LeagueName, .MatchName, .KickOffTime, .TextOutput, .Marketname, .Odds, .OddsLinkText, .OddsLink, .Order
+{	
+	padding-left: 10px;	
+	padding-right: 10px;
+}

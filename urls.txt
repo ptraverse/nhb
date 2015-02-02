@@ -1,0 +1,7 @@
+http://betsmart.bettorlogic.com/BetSmartService.svc/GetDailyBets
+
+http://betsmart.bettorlogic.com/BetSmartService.svc/GetMyMultiBets?stake=100&win=2000
+
+http://betsmart.bettorlogic.com/BetSmartService.svc/GetEditorial
+
+`/home/bettorlogic/upload`

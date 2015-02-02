@@ -1,0 +1,27 @@
+{% extends "base.html.twig" %}
+
+{% block title %}
+	{{ parent() }}
+{% endblock %}
+
+{% block head %}
+    {{ parent() }}    
+{% endblock %}
+
+{% block content %}
+
+	{% block dailybets %}
+		<div class="col-md-3" id="dailybets">
+			<h3>DailyBets</h3>
+			{% include 'rendered/dailybets.html' %}
+		</div>
+	{% endblock %}
+
+	{% block dailybets %}
+		<div class="col-md-3" id="dailybets">
+			<h3>LiveLogic</h3>
+			{% include 'rendered/livelogic.html' %}
+		</div>
+	{% endblock %}
+
+{% endblock %}

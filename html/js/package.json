@@ -1,0 +1,11 @@
+{
+	"name": "Nairahub",
+	"description": "XML to HTML from BettorLogic Feeds",
+	"author": "P. Traverse for Bet Smart Media",
+	"dependencies": 
+	{
+		"moment":  "*",
+    	"node-json2html": "*",
+    	"xml2js": "*"
+    }
+ }

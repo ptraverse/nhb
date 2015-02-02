@@ -1,0 +1,21 @@
+{
+    "name": "ptraverse/nhb",
+    "description": "Nairaub part 1",
+    "authors": [
+        {
+            "name": "Philippe Traverse",
+            "email": "philippe.traverse@gmail.com"
+        }
+    ],
+    "require": {
+			"monolog/monolog": "1.11.*@dev",
+			"phpunit/phpunit": "4.3.4",
+			"twig/twig": "1.16.2"	
+    },  
+    "autoload": {
+		"classmap": [
+			"classes",
+			"controllers"
+		]		
+	}
+}

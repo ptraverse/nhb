@@ -1,0 +1,8 @@
+# Schedule.cron #
+
+# DailyBets: Pull every 15 minutes
+*/15 * * * * curl http://betsmart.bettorlogic.com/BetSmartService.svc/GetDailyBets | node /vagrant/html/js/dailybets.js > /vagrant/html/templates/rendered/dailybets.html
+
+# LiveLogic: Dirwatcher Runs Constantly - shell script wrapper makes sure it is running every 10 minutes
+*/10 * * * * /vagrant/html/js/livelogic.sh
+
